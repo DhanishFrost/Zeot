@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.homepageheader{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/public/images/Tissot.jpg);
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    position: relative;
+}
+
+
+.playfairdisplay{
+    font-family: playfair display;
+}
+
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+  
+  .social-icons a:hover {
+    background-color: #434343;
+  }
+  
+  .social-icons i {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+  }
+
+
+  .rotate-180 {
+    transform: rotate(180deg);
+}
