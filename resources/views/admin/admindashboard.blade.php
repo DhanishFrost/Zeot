@@ -20,15 +20,15 @@
                              <form @submit.prevent="submitCreateUserForm" action="{{ route('admin.users.store') }}" method="POST">
                                 <div>
                                    <label for="name">Name:</label>
-                                   <input type="text" id="name" name="name" class="border border-gray-300 rounded-md p-2">
+                                   <input type="text" id="name" name="name" class="border border-gray-300 rounded-md p-2" required>
                                 </div>
                                 <div class="mt-4">
                                    <label for="email">Email:</label>
-                                   <input type="email" id="email" name="email" class="border border-gray-300 rounded-md p-2">
+                                   <input type="email" id="email" name="email" class="border border-gray-300 rounded-md p-2" required>
                                 </div>
                                 <div class="mt-4">
                                    <label for="password">Password:</label>
-                                   <input type="password" id="password" name="password" class="border border-gray-300 rounded-md p-2">
+                                   <input type="password" id="password" name="password" class="border border-gray-300 rounded-md p-2" required>
                                 </div>
                                 <div class="mt-4">
                                     <button type="button" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" @click="openCreateUserPopup = false">Cancel</button>

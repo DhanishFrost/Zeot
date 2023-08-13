@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+        @livewireScripts
+        <script src="{{ mix('js/alpine.js') }}"></script>
+        <script src="{{ mix('js/app.js') }}"></script>
+        
         <!-- Styles -->
         @livewireStyles
     </head>
@@ -49,8 +52,6 @@
 
         @stack('modals')
 
-        @livewireScripts
-        <script src="{{ mix('js/alpine.js') }}"></script>
-        <script src="{{ mix('js/app.js') }}"></script>
+        
     </body>
 </html>
