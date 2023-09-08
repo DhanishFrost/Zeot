@@ -19,6 +19,16 @@ class ProductController extends Controller
         $products = Product::all();
         return view('users.product', compact('products'));
     }
+
+    public function show($id)
+    {
+        $product = Product::find($id);
+        return view('users.productDetail', compact('product'));
+    }
+    public function editProductPage(Product $product)
+    {
+        return view('admin.editProductPage', compact('product'));
+    }
     
 
     public function store(Request $request)
@@ -27,13 +37,16 @@ class ProductController extends Controller
             'name' => 'required',
             'description' => 'required',
             'price' => 'required',
-            'image' => 'required', // Adjust max file size as needed
+            'image' => 'required', 
         ]);
 
 
         $product = new Product();
         $product->name = $request->name;
         $product->description= $request->description;
+        $product->brand = $request->brand;
+        $product->category = $request->category;
+        $product->quantity = $request->quantity;
         $product->price = $request->price;
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -45,43 +58,49 @@ class ProductController extends Controller
         return response()->json(['message' => 'Product created successfully']);
     }
 
-    public function editProduct($id)
-    {
-        $product = Product::where('id', '=', $id)->first();
-        return view('admin.adminproduct', compact('product'));
-    }
 
-    public function updateProduct(Request $request)
-    {
-        $id = $request->id;
-        $name = $request->editProductName;
-        $description = $request->editProductDescription;
-        $price = $request->editProductPrice;
-        $image = $request->file('editProductImage');
 
-        $product = Product::find($id);
-        if ($product) {
-            $product->name = $name;
-            $product->description = $description;
-            $product->price = $price;
-            if ($image) {
-                if
-                ($product->image) {
-                    Storage::delete('public/images/'.$product->image);
-                }
+    // public function editProduct($id)
+    // {
+    //     $product = Product::where('id', '=', $id)->first();
+    //     $categories = ['mens', 'womens']; 
+    //     return view('admin.adminproduct', compact('product', 'categories'));
+    // }
 
-                $imageName = $image->getClientOriginalName();
-                $imagePath = $image->storeAs('public/images', $imageName);
-                $product->image = $imageName;
-            }
-            $product->save();
 
-            return response()->json(['message' => 'Product updated successfully']);
+    // public function updateProduct(Request $request)
+    // {
+    //     $id = $request->id;
+    //     $name = $request->editProductName;
+    //     $description = $request->editProductDescription;
+    //     $category = $request->editProductCategory;
+    //     $price = $request->editProductPrice;
+    //     $image = $request->file('editProductImage');
+
+    //     $product = Product::find($id);
+    //     if ($product) {
+    //         $product->name = $name;
+    //         $product->description = $description;
+    //         $product->category = $category;
+    //         $product->price = $price;
+    //         if ($image) {
+    //             if
+    //             ($product->image) {
+    //                 Storage::delete('public/images/'.$product->image);
+    //             }
+
+    //             $imageName = $image->getClientOriginalName();
+    //             $imagePath = $image->storeAs('public/images', $imageName);
+    //             $product->image = $imageName;
+    //         }
+    //         $product->save();
+
+    //         return response()->json(['message' => 'Product updated successfully']);
             
-        } else {
-            return response()->json(['error' => 'Product not found'], 404);
-        }
-    }
+    //     } else {
+    //         return response()->json(['error' => 'Product not found'], 404);
+    //     }
+    // }
 
     public function destroy($id)
 {

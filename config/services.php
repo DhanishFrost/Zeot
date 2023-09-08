@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google_analytics' => [ 
+        'client_id' => '405450144-7f725da4f7c0.apps.googleusercontent.com', 
+        'client_secret' => 'Zeot', 
+        'redirect' => 'http://localhost:8000/auth/google/callback', 
+    ],
+
 ];

@@ -9,10 +9,7 @@ window.submitCreateUserForm = function () {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
     
-    if (name.trim() === '') {
-        alert('Please enter a name.');
-        return;
-    }
+    
     
     if (!isValidEmail(email)) {
         alert('Please enter a valid email address.');
@@ -106,27 +103,23 @@ function isValidEmail(email) {
 window.submitCreateProductForm = function () {
     var name = document.getElementById('name').value;
     var description = document.getElementById('description').value;
+    var brand = document.getElementById('brand').value;
+    var category = document.getElementById('category').value;
+    var quantity = document.getElementById('quantity').value;
     var price = document.getElementById('price').value;
     var image = document.getElementById('image').files[0];
     
-    if (name.trim() === '') {
-        alert('Please enter a name.');
-        return;
-    }
-    
-    if (description.trim() === '') {
-        alert('Please enter a description.');
-        return;
-    }
-    
-    if (price.trim() === '') {
-        alert('Please enter a price.');
+    if (name.trim() === '' || description.trim() === '' || price.trim() === '') {
+        alert('Please fill in all fields.');
         return;
     }
 
     var formData = new FormData();
     formData.append('name', name);
     formData.append('description', description);
+    formData.append('brand', brand);
+    formData.append('category', category);
+    formData.append('quantity', quantity);
     formData.append('price', price);
     formData.append('image',  image);
 
@@ -163,46 +156,48 @@ window.submitCreateProductForm = function () {
 }
 
 // Admin edit product
-window.updateEditProductPopup = function(productId) {
-    var editProductName = document.getElementById('editProductName-' + productId).value;
-    var editProductDescription = document.getElementById('editProductDescription-' + productId).value;
-    var editProductPrice = document.getElementById('editProductPrice-' + productId).value;
-    var editProductImage = document.getElementById('editProductImage-' + productId).files[0];
+// window.updateEditProductPopup = function(productId) {
+//     var editProductName = document.getElementById('editProductName-' + productId).value;
+//     var editProductDescription = document.getElementById('editProductDescription-' + productId).value;
+//     var editProductCategory = document.getElementById('editProductCategory-' + productId).value;
+//     var editProductPrice = document.getElementById('editProductPrice-' + productId).value;
+//     var editProductImage = document.getElementById('editProductImage-' + productId).files[0];
 
-    var formData = new FormData();
-    formData.append('id', productId);
-    formData.append('editProductName', editProductName);
-    formData.append('editProductDescription', editProductDescription);
-    formData.append('editProductPrice', editProductPrice);
-    formData.append('editProductImage', editProductImage);
+//     var formData = new FormData();
+//     formData.append('id', productId);
+//     formData.append('editProductName', editProductName);
+//     formData.append('editProductDescription', editProductDescription);
+//     formData.append('editProductCategory', editProductCategory);
+//     formData.append('editProductPrice', editProductPrice);
+//     formData.append('editProductImage', editProductImage);
 
     
-    fetch('/admin/adminproduct-update', {
-        method: 'POST',
-        headers: {
-            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-        },
-        body: formData
+//     fetch('/admin/adminproduct-update', {
+//         method: 'POST',
+//         headers: {
+//             'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+//         },
+//         body: formData
 
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(response.statusText);
-        }
-        return response.json();
-    })    
-    .then(data => {
-        console.log('Product updated successfully:', data);
-        var popupContent = document.querySelector('.popup-content');
-        if (popupContent) {
-            var xData = popupContent.querySelector('[x-data]');
-            if (xData && xData.__x) {
-                xData.__x.$data.openEditUserPopup = false;
-            }
-        }
-        location.reload();
-    })
-    .catch(error => {
-        console.error(error);
-    });
-}
+//     })
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error(response.statusText);
+//         }
+//         return response.json();
+//     })    
+//     .then(data => {
+//         console.log('Product updated successfully:', data);
+//         var popupContent = document.querySelector('.popup-content');
+//         if (popupContent) {
+//             var xData = popupContent.querySelector('[x-data]');
+//             if (xData && xData.__x) {
+//                 xData.__x.$data.openEditUserPopup = false;
+//             }
+//         }
+       
+//     })
+//     .catch(error => {
+//         console.error(error);
+//     });
+// }

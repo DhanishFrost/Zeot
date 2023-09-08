@@ -18,11 +18,13 @@ class HomeController extends Controller
                 $users = User::all();
                 return view('admin.admindashboard', ['users' => $users]);
             }
-        else{
-            return redirect()->route('profile.show');
+        else {
+            $users = User::all();
+            return view('home', ['users' => $users]);
         }
-    }else {
-        return redirect()->route('login');
+        } else {
+            return redirect()->route('login');
+        }
     }
-}
+
 }

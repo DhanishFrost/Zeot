@@ -19,7 +19,7 @@
 
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     @if (Auth::check() && Auth::user()->role == '1')
-                        <x-nav-link href="{{ route('index') }}" :active="request()->routeIs('index')">
+                        <x-nav-link href="{{ route('index') }}" :active="request()->routeIs('admin.users.index')">
                             {{ __('Users') }}
                         </x-nav-link>
                     @endif
@@ -162,7 +162,7 @@
 
         <div class="pt-2 pb-3 space-y-1">
             @if (Auth::check() && Auth::user()->role == '1')
-                <x-responsive-nav-link href="{{ route('index') }}" :active="request()->routeIs('index')">
+                <x-responsive-nav-link href="{{ route('admin.users.index') }}" :active="request()->routeIs('admin.users.index')">
                     {{ __('Users') }}
                 </x-responsive-nav-link>
             @endif
