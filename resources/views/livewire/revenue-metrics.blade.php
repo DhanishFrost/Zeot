@@ -5,7 +5,9 @@
                 <div class="flex justify-between">
                     <h2 class="text-xl font-semibold mb-4">Revenue Metrics</h2>
                     <div>
-                        <select wire:model="selectedPeriod" class="form-select focus:border-gray-100 border-none font-semibold text-gray-500" wire:change="updateGraphData">
+                        <select wire:model="selectedPeriod"
+                            class="form-select focus:border-gray-100 border-none font-semibold text-gray-500"
+                            wire:change="updateGraphData">
                             <option value="today">Today</option>
                             <option value="yesterday">Yesterday</option>
                             <option value="last7days">Last 7 Days</option>
@@ -20,7 +22,8 @@
                 <hr>
                 <div class="mt-5 justify-between mb-3 lg:flex">
                     <div class="pr-5">
-                        <p class="text-2xl max-lg:text-xl font-bold">LKR {{ number_format($this->totalRevenue(), 2) }}</p>
+                        <p class="text-2xl max-lg:text-xl font-bold">LKR {{ number_format($this->totalRevenue(), 2) }}
+                        </p>
                         <h2 class="text-md mb-2 text-gray-600">Total Revenue</h2>
                         <p class="text-lg max-lg:text-md font-semibold">LKR {{ $this->getAverageOrderValue() }}</p>
                         <h2 class="text-sm mb-2 text-gray-600">Average Order Value (AOV)</h2>
@@ -28,7 +31,8 @@
                     <p class="border lg:h-12 mt-3 mr-5"></p>
                     <div class="max-lg:mt-2">
                         <div class="flex">
-                            <p class="text-2xl max-lg:text-xl font-bold">LKR {{ number_format($this->revenueTrend('monthly'), 2) }}</p>
+                            <p class="text-2xl max-lg:text-xl font-bold">LKR
+                                {{ number_format($this->revenueTrend('monthly'), 2) }}</p>
                             <p class="mt-1 ml-2">
                                 @if ($this->revenueTrendPercentage('monthly') > 10)
                                     <span class="text-[#10b981]">+{{ $this->revenueTrendPercentage('monthly') }}%</span>
@@ -44,7 +48,8 @@
                     <p class="border lg:h-12 mt-3 mr-5"></p>
                     <div class="max-lg:mt-2">
                         <div class="flex">
-                            <p class="text-2xl max-lg:text-xl font-bold">LKR {{ number_format($this->revenueTrend('half-year'), 2) }}
+                            <p class="text-2xl max-lg:text-xl font-bold">LKR
+                                {{ number_format($this->revenueTrend('half-year'), 2) }}
                             </p>
                             <p class="mt-1 ml-2">
                                 @if ($this->revenueTrendPercentage('half-year') > 10)
@@ -83,7 +88,7 @@
                     }]
                 };
                 const ctx = document.getElementById('revenueTrendChart').getContext('2d');
-
+                
                 chart = new Chart(ctx, {
                     type: 'line',
                     data: initialData,
@@ -137,7 +142,7 @@
     <div class="col-span-2 lg:mt-8 mt-4 flex">
         <div class="p-8 bg-white rounded-lg shadow-lg w-full">
             <h1 class="text-2xl font-semibold mb-4">Revenue Metrics</h1>
-    
+
             <!-- Revenue by Category -->
             <div class="bg-gray-100 p-6 rounded-lg mb-6">
                 <h2 class="text-xl font-semibold mb-2">Revenue by Category</h2>
@@ -150,15 +155,16 @@
                     </thead>
                     <tbody>
                         @foreach ($revenueByCategory as $category)
-                        <tr>
-                            <td class="text-left capitalize">{{ $category->category }}</td>
-                            <td class="text-right font-semibold">LKR {{ number_format($category->total_revenue, 2) }}</td>
-                        </tr>
+                            <tr>
+                                <td class="text-left capitalize">{{ $category->category }}</td>
+                                <td class="text-right font-semibold">LKR
+                                    {{ number_format($category->total_revenue, 2) }}</td>
+                            </tr>
                         @endforeach
                     </tbody>
                 </table>
             </div>
-    
+
             <!-- Revenue by Brand -->
             <div class="bg-gray-100 p-6 rounded-lg">
                 <h2 class="text-xl font-semibold mb-2">Revenue by Brand</h2>
@@ -171,14 +177,14 @@
                     </thead>
                     <tbody>
                         @foreach ($revenueByBrand as $brand)
-                        <tr>
-                            <td class="text-left">{{ $brand->brand }}</td>
-                            <td class="text-right font-semibold">LKR {{ number_format($brand->total_revenue, 2) }}</td>
-                        </tr>
+                            <tr>
+                                <td class="text-left">{{ $brand->brand }}</td>
+                                <td class="text-right font-semibold">LKR {{ number_format($brand->total_revenue, 2) }}
+                                </td>
+                            </tr>
                         @endforeach
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
-    
