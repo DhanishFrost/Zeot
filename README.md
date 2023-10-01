@@ -9,6 +9,12 @@
 
 Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche market of exquisite watches. Our platform is meticulously designed to cater to the needs of both watch enthusiasts and retailers in this specialized industry. We aim to provide a seamless experience for our users to browse and buy watches.
 
+## Technologies Used
+
+- **Frontend** - HTML, CSS, JavaScript(Alpine), Tailwind CSS, AJAX
+- **Backend** - PHP, Laravel, Livewire, MySQL
+
+
 ## User Features
 
 - **User Authentication** - Users can create an account and login to the website. Users can also reset their password if they forget it.
@@ -32,12 +38,6 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - **Order Management** - Admins can view the list of orders and edit their information.
 - **Profile** - Admins can edit their profile information and change their password.
 
-## Technologies Used
-
-- **Frontend** - HTML, CSS, JavaScript(Alpine), Tailwind CSS, AJAX
-- **Backend** - PHP, Laravel, Livewire, MySQL
-
-
 ## Requirements
 
 - PHP 7.4 or higher
@@ -45,6 +45,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - Node.js
 - NPM
 - MySQL
+
 
 
 
