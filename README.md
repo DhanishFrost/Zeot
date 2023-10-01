@@ -35,8 +35,6 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - **Backend** - PHP, Laravel, Livewire, MySQL
 
 
-## Installation
-
 ## Requirements
 
 - PHP 7.4 or higher
