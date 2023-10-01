@@ -1,4 +1,5 @@
-<p align="center"><a href="" target="_blank"><img src="images/Zeot.png" width="400" alt="Zeot Logo"></a></p>
+
+![Zeot](https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b)
 
 
 
