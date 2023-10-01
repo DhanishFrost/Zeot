@@ -1,5 +1,6 @@
 
-![Zeot](https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b)
+<img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="300" height="200">
+
 
 
 
