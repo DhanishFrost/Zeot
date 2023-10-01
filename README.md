@@ -1,66 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="" target="_blank"><img src="images/Zeot.png" width="400" alt="Zeot Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About Zeot
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche market of exquisite watches. Our platform is meticulously designed to cater to the needs of both watch enthusiasts and retailers in this specialized industry. We aim to provide a seamless experience for our users to browse and buy watches.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## User Features
 
-## Learning Laravel
+- **User Authentication** - Users can create an account and login to the website. Users can also reset their password if they forget it.
+- **Product Catalog** - Users can browse through the product catalog and view the details of each product.
+- **Filter Features** - Such as Filter by Category, Brand, Stock Availablity.
+- **Shopping Cart** - Users can add products to their shopping cart and checkout.
+- **Checkout** - Users can checkout their shopping cart and pay for their order.
+- **Order History** - Users can view their order history and the details of each order.
+- **Address Book** - Users can add, edit, and delete their addresses.
+- **Profile** - Users can edit their profile information and change their password.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Admin Features
+- **Admin Authentication** - Admins can login to the admin dashboard.
+- **Admin Dashboard** - Admins can view the list of users, products, and orders. Admins can also add, edit, and delete users, products, and orders.
+- **Analytics** - Admins can view the analytics of the website.
+- **Revenue Metrics** - Admins can view the revenue metrics of the website.
+- **Product Metrics** - Admins can view the product metrics of the website.
+- **User Metrics** - Admins can view the user metrics of the website.
+- **User Management** - Admins can view the list of users and edit their information.
+- **Product Management** - Admins can view the list of products and edit their information.
+- **Order Management** - Admins can view the list of orders and edit their information.
+- **Profile** - Admins can edit their profile information and change their password.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Technologies Used
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Frontend** - HTML, CSS, JavaScript(Alpine), Tailwind CSS, AJAX
+- **Backend** - PHP, Laravel, Livewire, MySQL
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Installation
 
-### Premium Partners
+## Requirements
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- PHP 7.4 or higher
+- Composer
+- Node.js
+- NPM
+- MySQL
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Conclusion
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    Exquisite Watch Selection: Zeot offers a curated collection of the finest and most sought-after timepieces, making it the ultimate destination for watch connoisseurs.
 
-## Security Vulnerabilities
+    CRM Excellence: We provide a robust Customer Relationship Management (CRM) system tailored to the unique requirements of watch retailers, ensuring seamless customer interactions and order management.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Quality Assurance: Zeot's commitment to excellence is reflected in rigorous quality assurance testing, guaranteeing a flawless experience for both customers and administrators.
 
-## License
+    Future-Proofing: Our vision extends beyond the present, with a dedication to staying at the forefront of technology trends, ensuring our platform's adaptability and relevance.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    SaaS Expansion: Zeot is poised to expand its offerings into the realm of Software as a Service (SaaS), making our specialized CRM solutions accessible to a wider audience.
+
+Join us in exploring the world of exquisite timepieces and discover how Zeot can elevate your watch retail business to new heights of success and customer satisfaction.
+
