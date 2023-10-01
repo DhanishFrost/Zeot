@@ -4,14 +4,14 @@
             height="42.24">
         <ul class="menu items-center mt-6 ml-36 space-x-14 font-[poppins] hidden lg:flex lg:items-center lg:w-auto">
             <li class="mr-6">
-                <a href="{{ route('home') }}" class="text-lg font-medium -800">Home</a>
+                <a href="{{ route('home') }}" class="text-lg font-medium hover:text-gray-600 ">Home</a>
             </li>
             <li class="mr-6">
                 <a href="{{ Auth::check() ? route('product.userProduct') : route('login') }}"
-                    class="text-lg font-medium   text-opacity-50 hover:text-gray-100">Products</a>
+                    class="text-lg font-medium   text-opacity-50 hover:text-gray-600">Products</a>
             </li>
             <li>
-                <a href="#" class="text-lg font-medium  text-opacity-50 hover:text-gray-100">Contact
+                <a href="#" class="text-lg font-medium  text-opacity-50 hover:text-gray-600"">Contact
                     Us</a>
             </li>
             <li>
