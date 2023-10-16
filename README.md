@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
+![Profile0](https://github.com/DhanishFrost/Zeot/assets/107633188/0b8a7c0f-ea4f-4b58-9e8a-2c4797497fd8)
+![Profile2](https://github.com/DhanishFrost/Zeot/assets/107633188/0a72a7c6-e097-439f-a505-dabd64ea57ee)
 
 
 ## Table of Contents
