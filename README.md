@@ -1,4 +1,4 @@
-![Admin profile2](https://github.com/DhanishFrost/Zeot/assets/107633188/bf832f7e-d5d6-4659-9bf1-74ead1ab3d21)![Products Page](https://github.com/DhanishFrost/Zeot/assets/107633188/29b3b4d0-aa6a-4beb-9c24-6d6bcfd530d5)<div align="center">
+<div align="center">
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
@@ -51,9 +51,9 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 | ![Admin Dashboard](https://github.com/DhanishFrost/Zeot/assets/107633188/03930213-a0c5-4611-8757-d68ba0974274) | ![Analytics](https://github.com/DhanishFrost/Zeot/assets/107633188/685ade36-e5d5-455f-9ce4-54d7666641fa) | ![Analytics](https://github.com/DhanishFrost/Zeot/assets/107633188/22283db2-c009-4a4d-b535-dcc5df3a192b) |
 
 
-| Admin Profile | Admin Manage Customers | Admin Manage Products | Admin Manage Orders |
-|-------------- |----------------------- |-----------------------|-------------------- |
-| ![Admin Profile](https://github.com/DhanishFrost/Zeot/assets/107633188/4ddb846b-a475-4408-b7d3-8f330159e7e1) | ![Admin Manage Customers](https://github.com/DhanishFrost/Zeot/assets/107633188/27eb1a54-4abd-4425-bb06-40c7f871fb49) | ![Admin Manage Products](https://github.com/DhanishFrost/Zeot/assets/107633188/ce0805db-cd24-4bf7-82a9-2eb2e8c737bb) | ![Admin Manage Orders](https://github.com/DhanishFrost/Zeot/assets/107633188/0fc6405a-1eaf-40de-9e24-9b3a0ff9254f) |
+| Admin Profile | Admin Profile 2 | Admin Manage Customers | Admin Manage Products | Admin Manage Orders |
+|-------------- | --------------- | ----------------------- |-----------------------|-------------------- |
+| ![Admin Profile](https://github.com/DhanishFrost/Zeot/assets/107633188/4ddb846b-a475-4408-b7d3-8f330159e7e1) | ![Admin Profile 2](https://github.com/DhanishFrost/Zeot/assets/107633188/bf832f7e-d5d6-4659-9bf1-74ead1ab3d21) | ![Admin Manage Customers](https://github.com/DhanishFrost/Zeot/assets/107633188/27eb1a54-4abd-4425-bb06-40c7f871fb49) | ![Admin Manage Products](https://github.com/DhanishFrost/Zeot/assets/107633188/ce0805db-cd24-4bf7-82a9-2eb2e8c737bb) | ![Admin Manage Orders](https://github.com/DhanishFrost/Zeot/assets/107633188/0fc6405a-1eaf-40de-9e24-9b3a0ff9254f) |
 
 
 ## Technologies Used
