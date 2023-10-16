@@ -2,7 +2,7 @@
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
-![Products Page](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5)
+![Products Page]()
 
 ![address book](https://github.com/DhanishFrost/Zeot/assets/107633188/5c499621-db64-442f-aa80-1ca96dd2afba)
 ![Product ![Create address in address book](https://github.com/DhanishFrost/Zeot/assets/107633188/f2ca4f03-3197-47f6-ba67-0a7a6114932b)
@@ -53,9 +53,9 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 </div>
 
 
-| Login | Register | 
-|---------|--------|
-| ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) |
+| Login | Register | Product Catalog |
+|---------|--------| --------------- |
+| ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | 
 
 
 
