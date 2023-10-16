@@ -2,12 +2,11 @@
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
-![Products Page]()
 
 ![address book](https://github.com/DhanishFrost/Zeot/assets/107633188/5c499621-db64-442f-aa80-1ca96dd2afba)
 ![Product ![Create address in address book](https://github.com/DhanishFrost/Zeot/assets/107633188/f2ca4f03-3197-47f6-ba67-0a7a6114932b)
-Details In stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c)
-![Product Details Out of stock](https://github.com/DhanishFrost/Zeot/assets/107633188/24076b9e-b3f3-4cf1-987e-76023f511791)
+Details In stock]()
+![Product Details Out of stock]()
 
 ![Uploading ![Cart select All](https://github.com/DhanishFrost/Zeot/assets/107633188/77de6b5d-00b1-426b-bb42-ca905d125d3b)
 Products Page.png…]()![Cart](https://github.com/DhanishFrost/Zeot/assets/107633188/bdb89981-58b6-4392-9675-883e19207a58)
@@ -46,17 +45,22 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 
 ## Screenshots
 
+### Home Page
+
 <div align="center">
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/fca7e660-1e41-47e6-a1d3-2f21f7502f5f"
         alt="Zeot"
         width="500">
 </div>
 
+### Customer UI
 
-| Login | Register | Product Catalog |
-|---------|--------| --------------- |
-| ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | 
+| Login | Register | Product Catalog | Product Details In Stock/Out of Stock|
+|---------|--------| --------------- | ------------------------------------ | 
+| ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | ![Alt text](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c)(https://github.com/DhanishFrost/Zeot/assets/107633188/24076b9e-b3f3-4cf1-987e-76023f511791) | 
 
+
+### Admin UI
 
 
 
