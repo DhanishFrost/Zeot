@@ -163,7 +163,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Documentation
 
-- [Zeot SSP Document]()
+- [Zeot SSP Document](https://github.com/DhanishFrost/Zeot/files/12913328/SSP.2.Report.pdf)
 - [Laravel](https://laravel.com/docs/8.x)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [Alpine.js](https://alpinejs.dev/)
