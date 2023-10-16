@@ -1,7 +1,28 @@
-<div align="center">
+![Admin profile2](https://github.com/DhanishFrost/Zeot/assets/107633188/bf832f7e-d5d6-4659-9bf1-74ead1ab3d21)![Products Page](https://github.com/DhanishFrost/Zeot/assets/107633188/29b3b4d0-aa6a-4beb-9c24-6d6bcfd530d5)<div align="center">
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
+![Login](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134)
+![Register](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a)
+![address book](https://github.com/DhanishFrost/Zeot/assets/107633188/5c499621-db64-442f-aa80-1ca96dd2afba)
+![Product ![Create address in address book](https://github.com/DhanishFrost/Zeot/assets/107633188/f2ca4f03-3197-47f6-ba67-0a7a6114932b)
+Details In stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c)
+![Product Details Out of stock](https://github.com/DhanishFrost/Zeot/assets/107633188/24076b9e-b3f3-4cf1-987e-76023f511791)
+
+![Uploading ![Cart select All](https://github.com/DhanishFrost/Zeot/assets/107633188/77de6b5d-00b1-426b-bb42-ca905d125d3b)
+Products Page.png…]()![Cart](https://github.com/DhanishFrost/Zeot/assets/107633188/bdb89981-58b6-4392-9675-883e19207a58)
+![Checkout](https://github.com/DhanishFrost/Zeot/assets/107633188/68a3b0a2-3d98-4e7f-866f-a5c867cbf015)
+![User orders](https://github.com/DhanishFrost/Zeot/assets/107633188/e5d2d930-4b18-442c-9952-e1169069a743)
+
+![AdminDashboard1](https://github.com/DhanishFrost/Zeot/assets/107633188/03930213-a0c5-4611-8757-d68ba0974274)
+![AdminDashboard2](https://github.com/DhanishFrost/Zeot/assets/107633188/685ade36-e5d5-455f-9ce4-54d7666641fa)
+![AdminDashboard3](https://github.com/DhanishFrost/Zeot/assets/107633188/22283db2-c009-4a4d-b535-dcc5df3a192b)
+![Uploading Adm![Admin profiile1](https://github.com/DhanishFrost/Zeot/assets/107633188/4ddb846b-a475-4408-b7d3-8f330159e7e1)
+in profile2.png…]()
+
+![Admin ![Admin manage products](https://github.com/DhanishFrost/Zeot/assets/107633188/ce0805db-cd24-4bf7-82a9-2eb2e8c737bb)
+manage Customers](https://github.com/DhanishFrost/Zeot/assets/107633188/27eb1a54-4abd-4425-bb06-40c7f871fb49)
+![Admin manage orders](https://github.com/DhanishFrost/Zeot/assets/107633188/0fc6405a-1eaf-40de-9e24-9b3a0ff9254f)
 
 ## Table of Contents
 
