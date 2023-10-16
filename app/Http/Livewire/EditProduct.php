@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use App\Models\Product;
 use Livewire\Livewire;
@@ -41,13 +42,18 @@ class EditProduct extends Component
             'quantity' => 'required|numeric',
             'image' => 'nullable|image|max:2048',
         ]);
-
+        dd($this->image);
         if ($this->image) {
             // Upload and update image
-            $imagePath = $this->image->storeAs($this->image->getClientOriginalName());
-            $this->product->image = $imagePath;
+            $imageName = $this->image->getClientOriginalName();
+            $imagePath = $this->image->storeAs('public/images', $imageName);
+
+            if ($this->product->image) {
+                Storage::delete('public/images/' . $this->product->image);
+            }
+
+            $this->product->image = $imageName;
         }
-    
 
         $this->product->name = $this->name;
         $this->product->description = $this->description;
@@ -56,10 +62,13 @@ class EditProduct extends Component
         $this->product->quantity = $this->quantity;
         $this->product->price = $this->price;
         $this->product->save();
+        
         session()->flash('success', 'Product updated successfully.');
 
         return redirect()->route('product.adminProduct');
     }
+
+    
 
     public function render()
     {

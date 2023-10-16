@@ -47,6 +47,35 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - MySQL
 
 
+## Installation
+
+1. Clone the repository
+```bash
+git clone
+```
+
+2. Install dependencies
+```bash
+composer install
+npm install
+```
+
+3. Create a database and import the database dump file
+```bash
+mysql -u username -p database_name < database_dump.sql
+```
+
+4. Create a `.env` file and add the following environment variables
+```bash
+DB_CONNECTION=mysql
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+
 
 
 ## Conclusion

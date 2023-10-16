@@ -8,6 +8,7 @@ use App\Models\Product;
 use App\Models\RevenueMetric;
 use App\Models\ShoppingCart;
 use App\Models\userAddress;
+use App\Notifications\PurchaseSuccessful;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Livewire\Component;
