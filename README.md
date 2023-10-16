@@ -1,8 +1,6 @@
 <div align="center">
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
-![Profile0](https://github.com/DhanishFrost/Zeot/assets/107633188/0b8a7c0f-ea4f-4b58-9e8a-2c4797497fd8)
-![Profile2](https://github.com/DhanishFrost/Zeot/assets/107633188/0a72a7c6-e097-439f-a505-dabd64ea57ee)
 
 
 ## Table of Contents
@@ -41,9 +39,9 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 |---------|--------| --------------- | ----------------------- | ---------------------------- | ---- | -------- |
 | ![Login](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Register](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Product Catalog](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | ![Product Details in Stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c) | ![Product Details out of stock](https://github.com/DhanishFrost/Zeot/assets/107633188/24076b9e-b3f3-4cf1-987e-76023f511791) | ![Cart](https://github.com/DhanishFrost/Zeot/assets/107633188/bdb89981-58b6-4392-9675-883e19207a58) | ![Checkout](https://github.com/DhanishFrost/Zeot/assets/107633188/68a3b0a2-3d98-4e7f-866f-a5c867cbf015)
 
-| Order History | Address Book | Profile |
-|---------------|--------------|---------|
-| ![Order History](https://github.com/DhanishFrost/Zeot/assets/107633188/e5d2d930-4b18-442c-9952-e1169069a743) | ![Address Book](https://github.com/DhanishFrost/Zeot/assets/107633188/5c499621-db64-442f-aa80-1ca96dd2afba) | ![Profile]() 
+| Order History | Address Book | Profile 1 | Profile 2 |
+|---------------|--------------|---------- | --------- |
+| ![Order History](https://github.com/DhanishFrost/Zeot/assets/107633188/e5d2d930-4b18-442c-9952-e1169069a743) | ![Address Book](https://github.com/DhanishFrost/Zeot/assets/107633188/5c499621-db64-442f-aa80-1ca96dd2afba) | ![Profile](https://github.com/DhanishFrost/Zeot/assets/107633188/0b8a7c0f-ea4f-4b58-9e8a-2c4797497fd8) | ![Profile 2](https://github.com/DhanishFrost/Zeot/assets/107633188/0a72a7c6-e097-439f-a505-dabd64ea57ee) |
 
 
 ### Admin UI
