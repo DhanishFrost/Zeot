@@ -57,7 +57,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 
 | Login | Register | Product Catalog | Product Details In Stock/Out of Stock|
 |---------|--------| --------------- | ------------------------------------ | 
-| ![Login](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Register](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Product Catalog](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | ![Product Details in Stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c) | ![Product Details out of stock](https://github.com/DhanishFrost/Zeot/assets/107633188/24076b9e-b3f3-4cf1-987e-76023f511791) | 
+| ![Login](https://github.com/DhanishFrost/Zeot/assets/107633188/77daf1ad-acff-462f-8e90-d9f492816134) | ![Register](https://github.com/DhanishFrost/Zeot/assets/107633188/bb66cd94-fb8b-4db3-a092-326dbad7dd0a) | ![Product Catalog](https://github.com/DhanishFrost/Zeot/assets/107633188/1ef2be8e-19c7-44f6-93f3-4c467d84f5c5) | ![Product Details in Stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c) | ![Product Details out of stock](https://github.com/DhanishFrost/Zeot/assets/107633188/47762cdc-4231-42dc-8dc4-2875f4c9ae5c) | 
 
 
 ### Admin UI
