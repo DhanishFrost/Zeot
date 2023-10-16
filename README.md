@@ -102,7 +102,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 
 1. Clone the repository
 ```bash
-git clone
+git clone https://github.com/DhanishFrost/Zeot.git
 ```
 
 2. Install dependencies
