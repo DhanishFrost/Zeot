@@ -2,18 +2,35 @@
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
-<div align="center">
-  <h1>Zeot</h1>
-  <p>
-    <b>Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche market of exquisite watches.</b>
-  </p>
-</div>
+## Table of Contents
 
-
+- [About Zeot](#about-zeot)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [User Features](#user-features)
+- [Admin Features](#admin-features)
+- [Getting Started](#getting-started)
+  - [Prerequirements](#prerequirements)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 ## About Zeot
 
 Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche market of exquisite watches. Our platform is meticulously designed to cater to the needs of both watch enthusiasts and retailers in this specialized industry. We aim to provide a seamless experience for our users to browse and buy watches.
+
+## Screenshots
+
+<div align="center">
+  <img src=""
+        alt="Zeot"
+        width="500">
+</div>
+
+
 
 ## Technologies Used
 
@@ -45,7 +62,10 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - **Order Management** - Admins can view the list of orders and edit their information.
 - **Profile** - Admins can edit their profile information and change their password.
 
-## Requirements
+
+## Getting Started
+
+### Prerequirements
 
 - PHP 7.4 or higher
 - Composer
@@ -54,7 +74,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 - MySQL
 
 
-## Installation
+### Installation
 
 1. Clone the repository
 ```bash
@@ -95,17 +115,25 @@ php artisan serve
 npm run dev
 ```
 
-## Conclusion
+## License
 
-    Exquisite Watch Selection: Zeot offers a curated collection of the finest and most sought-after timepieces, making it the ultimate destination for watch connoisseurs.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-    CRM Excellence: We provide a robust Customer Relationship Management (CRM) system tailored to the unique requirements of watch retailers, ensuring seamless customer interactions and order management.
+## Credits
 
-    Quality Assurance: Zeot's commitment to excellence is reflected in rigorous quality assurance testing, guaranteeing a flawless experience for both customers and administrators.
+- [Dhanish Ithhaf]()
 
-    Future-Proofing: Our vision extends beyond the present, with a dedication to staying at the forefront of technology trends, ensuring our platform's adaptability and relevance.
+## Contact
 
-    SaaS Expansion: Zeot is poised to expand its offerings into the realm of Software as a Service (SaaS), making our specialized CRM solutions accessible to a wider audience.
+- [Dhanish Ithhaf](mailto:mimdhanish2005@gmail.com)
 
-Join us in exploring the world of exquisite timepieces and discover how Zeot can elevate your watch retail business to new heights of success and customer satisfaction.
+## Acknowledgements
+
+- [Laravel](https://laravel.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Alpine.js]()
+- [Laravel Mix](https://laravel-mix.com/)
+- [jetstream](https://jetstream.laravel.com/1.x/introduction.html)
+- [Livewire](https://laravel-livewire.com/)
+
 
