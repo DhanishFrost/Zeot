@@ -2,6 +2,12 @@
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
+<div align="center">
+  <h1>Zeot</h1>
+  <p>
+    <b>Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche market of exquisite watches.</b>
+  </p>
+</div>
 
 
 
@@ -13,6 +19,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 
 - **Frontend** - HTML, CSS, JavaScript(Alpine), Tailwind CSS, AJAX
 - **Backend** - PHP, Laravel, Livewire, MySQL
+- **Development Tools** - Git, GitHub, VS Code, Composer, NPM, Laravel Mix, Laravel Valet
 
 
 ## User Features
@@ -76,7 +83,17 @@ DB_PASSWORD=
 ```
 
 
+## Usage
 
+1. Run the development server
+```bash
+php artisan serve
+```
+
+2. Run the development build
+```bash
+npm run dev
+```
 
 ## Conclusion
 
