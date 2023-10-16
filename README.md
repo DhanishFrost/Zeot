@@ -89,7 +89,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 
 ## Getting Started
 
-### Prerequirements
+### Prerequisites
 
 - PHP 7.4 or higher
 - Composer
@@ -161,3 +161,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [Livewire](https://laravel-livewire.com/)
 
 
+## Documentation
+
+- [Zeot SSP Document]()
+- [Laravel](https://laravel.com/docs/8.x)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Alpine.js](https://alpinejs.dev/)
+- [Laravel Mix](https://laravel-mix.com/docs/6.0/installation)
+- [jetstream](https://jetstream.laravel.com/1.x/introduction.html)
+- [Livewire](https://laravel-livewire.com/docs/2.x/quickstart)
