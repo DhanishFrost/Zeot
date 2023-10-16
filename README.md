@@ -2,6 +2,7 @@
   <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/69e9fcb6-687d-4b4b-9ab1-002d1518791b" alt="Zeot" width="500">
 </div>
 
+
 ## Table of Contents
 
 - [About Zeot](#about-zeot)
@@ -25,7 +26,7 @@ Zeot is an exclusive E-Commerce CRM website dedicated to serving the niche marke
 ## Screenshots
 
 <div align="center">
-  <img src=""
+  <img src="https://github.com/DhanishFrost/Zeot/assets/107633188/fca7e660-1e41-47e6-a1d3-2f21f7502f5f"
         alt="Zeot"
         width="500">
 </div>
